@@ -6,7 +6,7 @@ LFLAGS=-L/user/lib/x86_64-linux-gnu
 LIBS=-lcurl -lpthread
 
 SRC=requestor.c
-OBJ=$(SRC:.c=.0)
+OBJ=$(SRC:.c=.o)
 MAIN=test
 
 RM=rm -rf
