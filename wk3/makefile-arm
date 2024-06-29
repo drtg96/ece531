@@ -7,9 +7,9 @@ LFLAGS=
 
 LIBS=-lcurl -uClibc -lc
 
-SRC=requestor.c
+SRC=curlClient.c
 OBJ=$(SRC:.c=.o)
-MAIN=test
+MAIN=client
 
 RM=rm -rf
 
