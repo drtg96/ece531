@@ -1,3 +1,14 @@
+/******************************************************************************
+* INSTRUCTIONS
+* Assignment: Network Communication on ARM
+* use make -f makefile-arm to build for qemu-arm image on buildroot-2024.02.2
+* output progam is called `client`
+* to run see program see usage with `./client -h`
+* NOTE that attention needs to be paid to network configuration. i.e. It is
+* recommended to use verbose ip addresses instead of localhost between UNIX real
+* and virtual machines
+******************************************************************************/
+
 #include <stdio.h>
 #include <curl/curl.h>
 #include <string.h>
